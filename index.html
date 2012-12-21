@@ -31,6 +31,53 @@
 				</div>
 				<div id="container">
 					
+					<div class="section section-overview index-overview">
+						
+						
+						<h1><a href="Classes/DTTableViewManager.html">DTTableViewManager</a></h1>
+
+<p>Powerful architecture for UITableView. The idea is to move all datasource methods to separate class, and add many helper methods to manage presentation of your data models.</p>
+
+<p>Warning &ndash; setup will sound complex, but once you use it at least once, you will see the benefits.</p>
+
+<h2>Core features</h2>
+
+<ul>
+<li>Ability to manipulate models in the table view on the fly. No need to worry about datasource methods.</li>
+<li>Clean controller code</li>
+<li>Table view cells can be created from code, or from IB.</li>
+<li>You can make your controller a subclass of <a href="Classes/DTTableViewManager.html">DTTableViewManager</a>, or you can make it a property on your controller and subclass from whatever you need</li>
+<li>Any datasource/delegate method can be overridden in your controller</li>
+</ul>
+
+
+<h2>Changelog</h2>
+
+<p><a href="https://github.com/DenHeadless/DTTableViewManager/wiki/Changelog">Changelog</a></p>
+
+<h2>Example</h2>
+
+<p>Example is available in Example folder.</p>
+
+<h2>Documentation</h2>
+
+<p>You can view documentation <a href="http://denheadless.github.com/DTTableViewManager/">online</a> or you can install it locally using following atom link: <a href="http://denheadless.github.com/DTTableViewManager/DTTableViewManager.atom">http://denheadless.github.com/DTTableViewManager/DTTableViewManager.atom</a>.</p>
+
+<h2>Additional</h2>
+
+<p>Added support for ARC, <a href="Classes/DTCellFactory.html">DTCellFactory</a> now uses <a href="https://gist.github.com/1057420">GCDSingleton macro</a>. If you need non-ARC version, please refer to <a href="https://github.com/DenHeadless/DTTableViewManager/tree/0.0.5">0.0.5 version</a>.</p>
+
+<h2>Discussion</h2>
+
+<p>This approach intends to clean your view controller from massive amounts of repeatable datasource code. It helps to think about table view models instead of table view cells. Table view cells should be responsive for displaying their content, and controller should only be responsive for displaying models, not cells.</p>
+
+<h2>Thanks</h2>
+
+<p>Special thanks to Alexey Belkevich (<a href="https://github.com/belkevich">https://github.com/belkevich)</a>) for providing initial implementation of CellFactory.</p>
+						
+						
+					</div>
+					
                         
                     
 					
