@@ -1,0 +1,2911 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>DTTableViewManager Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.6 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">DTTableViewManager </a></h1>
+				<a id="developerHome" href="../index.html">MLSDev</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">DTTableViewManager Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/doNotReuseCells">&nbsp;&nbsp;&nbsp;&nbsp;doNotReuseCells</option>
+	
+	<option value="//api/name/tableView">&nbsp;&nbsp;&nbsp;&nbsp;tableView</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/managerWithDelegate:andTableView:">&nbsp;&nbsp;&nbsp;&nbsp;+ managerWithDelegate:andTableView:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addNonRepeatingItems:toSection:withRowAnimation:">&nbsp;&nbsp;&nbsp;&nbsp;- addNonRepeatingItems:toSection:withRowAnimation:</option>
+	
+	<option value="//api/name/addTableItem:">&nbsp;&nbsp;&nbsp;&nbsp;- addTableItem:</option>
+	
+	<option value="//api/name/addTableItem:toSection:">&nbsp;&nbsp;&nbsp;&nbsp;- addTableItem:toSection:</option>
+	
+	<option value="//api/name/addTableItem:toSection:withRowAnimation:">&nbsp;&nbsp;&nbsp;&nbsp;- addTableItem:toSection:withRowAnimation:</option>
+	
+	<option value="//api/name/addTableItem:withRowAnimation:">&nbsp;&nbsp;&nbsp;&nbsp;- addTableItem:withRowAnimation:</option>
+	
+	<option value="//api/name/addTableItems:">&nbsp;&nbsp;&nbsp;&nbsp;- addTableItems:</option>
+	
+	<option value="//api/name/addTableItems:toSection:">&nbsp;&nbsp;&nbsp;&nbsp;- addTableItems:toSection:</option>
+	
+	<option value="//api/name/addTableItems:toSection:withRowAnimation:">&nbsp;&nbsp;&nbsp;&nbsp;- addTableItems:toSection:withRowAnimation:</option>
+	
+	<option value="//api/name/addTableItems:withRowAnimation:">&nbsp;&nbsp;&nbsp;&nbsp;- addTableItems:withRowAnimation:</option>
+	
+	<option value="//api/name/deleteSections:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteSections:</option>
+	
+	<option value="//api/name/deleteSections:withRowAnimation:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteSections:withRowAnimation:</option>
+	
+	<option value="//api/name/indexPathArrayForTableItems:">&nbsp;&nbsp;&nbsp;&nbsp;- indexPathArrayForTableItems:</option>
+	
+	<option value="//api/name/indexPathOfTableItem:">&nbsp;&nbsp;&nbsp;&nbsp;- indexPathOfTableItem:</option>
+	
+	<option value="//api/name/initWithDelegate:andTableView:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithDelegate:andTableView:</option>
+	
+	<option value="//api/name/insertTableItem:toIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- insertTableItem:toIndexPath:</option>
+	
+	<option value="//api/name/insertTableItem:toIndexPath:withRowAnimation:">&nbsp;&nbsp;&nbsp;&nbsp;- insertTableItem:toIndexPath:withRowAnimation:</option>
+	
+	<option value="//api/name/moveSection:toSection:">&nbsp;&nbsp;&nbsp;&nbsp;- moveSection:toSection:</option>
+	
+	<option value="//api/name/numberOfSections">&nbsp;&nbsp;&nbsp;&nbsp;- numberOfSections</option>
+	
+	<option value="//api/name/numberOfTableItemsInSection:">&nbsp;&nbsp;&nbsp;&nbsp;- numberOfTableItemsInSection:</option>
+	
+	<option value="//api/name/reloadSections:withRowAnimation:">&nbsp;&nbsp;&nbsp;&nbsp;- reloadSections:withRowAnimation:</option>
+	
+	<option value="//api/name/removeAllTableItems">&nbsp;&nbsp;&nbsp;&nbsp;- removeAllTableItems</option>
+	
+	<option value="//api/name/removeTableItem:">&nbsp;&nbsp;&nbsp;&nbsp;- removeTableItem:</option>
+	
+	<option value="//api/name/removeTableItem:withRowAnimation:">&nbsp;&nbsp;&nbsp;&nbsp;- removeTableItem:withRowAnimation:</option>
+	
+	<option value="//api/name/removeTableItems:">&nbsp;&nbsp;&nbsp;&nbsp;- removeTableItems:</option>
+	
+	<option value="//api/name/removeTableItems:withRowAnimation:">&nbsp;&nbsp;&nbsp;&nbsp;- removeTableItems:withRowAnimation:</option>
+	
+	<option value="//api/name/replaceTableItem:withTableItem:">&nbsp;&nbsp;&nbsp;&nbsp;- replaceTableItem:withTableItem:</option>
+	
+	<option value="//api/name/replaceTableItem:withTableItem:andRowAnimation:">&nbsp;&nbsp;&nbsp;&nbsp;- replaceTableItem:withTableItem:andRowAnimation:</option>
+	
+	<option value="//api/name/setCellMappingForNib:cellClass:modelClass:">&nbsp;&nbsp;&nbsp;&nbsp;- setCellMappingForNib:cellClass:modelClass:</option>
+	
+	<option value="//api/name/setCellMappingforClass:modelClass:">&nbsp;&nbsp;&nbsp;&nbsp;- setCellMappingforClass:modelClass:</option>
+	
+	<option value="//api/name/setObjectMappingDictionary:">&nbsp;&nbsp;&nbsp;&nbsp;- setObjectMappingDictionary:</option>
+	
+	<option value="//api/name/setSectionFooterTitles:">&nbsp;&nbsp;&nbsp;&nbsp;- setSectionFooterTitles:</option>
+	
+	<option value="//api/name/setSectionHeaderTitles:">&nbsp;&nbsp;&nbsp;&nbsp;- setSectionHeaderTitles:</option>
+	
+	<option value="//api/name/tableItemAtIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- tableItemAtIndexPath:</option>
+	
+	<option value="//api/name/tableItemsArrayForIndexPaths:">&nbsp;&nbsp;&nbsp;&nbsp;- tableItemsArrayForIndexPaths:</option>
+	
+	<option value="//api/name/tableItemsInSection:">&nbsp;&nbsp;&nbsp;&nbsp;- tableItemsInSection:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Properties">Properties</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Initialization">Initialization</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Search">Search</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Section titles">Section titles</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Add table items">Add table items</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Insert table items">Insert table items</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Replace table items">Replace table items</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Removing table items">Removing table items</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Managing sections">Managing sections</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Mapping">Mapping</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doNotReuseCells">doNotReuseCells</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tableView">tableView</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/managerWithDelegate:andTableView:">managerWithDelegate:andTableView:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addNonRepeatingItems:toSection:withRowAnimation:">addNonRepeatingItems:toSection:withRowAnimation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addTableItem:">addTableItem:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addTableItem:toSection:">addTableItem:toSection:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addTableItem:toSection:withRowAnimation:">addTableItem:toSection:withRowAnimation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addTableItem:withRowAnimation:">addTableItem:withRowAnimation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addTableItems:">addTableItems:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addTableItems:toSection:">addTableItems:toSection:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addTableItems:toSection:withRowAnimation:">addTableItems:toSection:withRowAnimation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addTableItems:withRowAnimation:">addTableItems:withRowAnimation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteSections:">deleteSections:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteSections:withRowAnimation:">deleteSections:withRowAnimation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/indexPathArrayForTableItems:">indexPathArrayForTableItems:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/indexPathOfTableItem:">indexPathOfTableItem:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithDelegate:andTableView:">initWithDelegate:andTableView:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertTableItem:toIndexPath:">insertTableItem:toIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertTableItem:toIndexPath:withRowAnimation:">insertTableItem:toIndexPath:withRowAnimation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/moveSection:toSection:">moveSection:toSection:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/numberOfSections">numberOfSections</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/numberOfTableItemsInSection:">numberOfTableItemsInSection:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/reloadSections:withRowAnimation:">reloadSections:withRowAnimation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeAllTableItems">removeAllTableItems</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeTableItem:">removeTableItem:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeTableItem:withRowAnimation:">removeTableItem:withRowAnimation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeTableItems:">removeTableItems:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeTableItems:withRowAnimation:">removeTableItems:withRowAnimation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/replaceTableItem:withTableItem:">replaceTableItem:withTableItem:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/replaceTableItem:withTableItem:andRowAnimation:">replaceTableItem:withTableItem:andRowAnimation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setCellMappingForNib:cellClass:modelClass:">setCellMappingForNib:cellClass:modelClass:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setCellMappingforClass:modelClass:">setCellMappingforClass:modelClass:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setObjectMappingDictionary:">setObjectMappingDictionary:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSectionFooterTitles:">setSectionFooterTitles:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSectionHeaderTitles:">setSectionHeaderTitles:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tableItemAtIndexPath:">tableItemAtIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tableItemsArrayForIndexPaths:">tableItemsArrayForIndexPaths:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tableItemsInSection:">tableItemsInSection:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="DTTableViewManager Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">DTTableViewManager Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIViewController</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">UITableViewDataSource<br />UITableViewDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">DTTableViewManager.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><code>DTTableViewManager</code> manages all <code>UITableView</code> datasource methods and provides API for managing your data models in the table.</p>
+
+<h2>Setup</h2>
+
+<h1>General steps</h1>
+
+<ul>
+<li>You should have custom <code>UITableViewCell</code> subclasses that manage cell layout, using given data model.</li>
+<li>Every cell class should be mapped to model class using mapping methods.</li>
+<li><code>UITableView</code> delegate should be set to DTTableViewManager object.</li>
+</ul>
+
+
+<h1>Subclassing</h1>
+
+<p>This is recommended and easier approach. In this case <code>UITableView</code> delegate and datasource is your controller. Any <code>UITableViewDatasource</code> and <code>UITableViewDelegate</code> method can be overridden in your controller.</p>
+
+<h1>Separate manager</h1>
+
+<p>This is needed, when your controller inherits from custom class, and you need to have <code>DTTableViewManager</code> as a separate object. In this case you should create <code>DTTableViewManager</code> object using <a href="#//api/name/managerWithDelegate:andTableView:">[DTTableViewManager managerWithDelegate:andTableView:]</a>, and make it a property in your controller. Current implementation sets <code>UITableView</code>&rsquo;s delegate and datasource property to <code>DTTableViewManager</code> object. Delegate methods are then trampolined to your controller if it implements them.</p>
+
+<p>There&rsquo;s a <a href="../Protocols/DTTableViewCellCreation.html"><code>DTTableViewCellCreation</code></a> protocol that can be used to modify cell after it has been created.</p>
+
+<h2>Managing table items</h2>
+
+<p>Every action that is done to table items &ndash; add, delete, insert etc. is applied immediately. There&rsquo;s no need to manually reload data on your table view. Group insertion, addition or deletion is processed inside <code>UITableView</code> <code>beginUpdates</code> and <code>endUpdates</code> block.</p>
+
+<h2>Loading cells from XIB</h2>
+
+<p><code>DTTableViewManager</code> internally uses <code>registerNib:forCellReuseIdentifier:</code> method for making this happen, which requires iOS 5.0 and higher to work. Use <a href="#//api/name/setCellMappingForNib:cellClass:modelClass:">setCellMappingForNib:cellClass:modelClass:</a> for mapping NIB to cell class and model.</p><div class="warning"><p><strong>Warning:</strong> Before executing <a href="#//api/name/setCellMappingForNib:cellClass:modelClass:">setCellMappingForNib:cellClass:modelClass:</a>, make sure that <a href="#//api/name/tableView">tableView</a> property is set and <a href="#//api/name/tableView">tableView</a> is created. Good spot to call <a href="#//api/name/setCellMappingForNib:cellClass:modelClass:">setCellMappingForNib:cellClass:modelClass:</a> is in viewDidLoad method.</p></div>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Properties" name="task_Properties"></a>
+						<h3 class="subsubtitle task-title">Properties</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tableView">&nbsp;&nbsp;tableView</a></code>
+		<span class="tooltip"><p>Table view that will present your data models.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doNotReuseCells">&nbsp;&nbsp;doNotReuseCells</a></code>
+		<span class="tooltip"><p>Set this property to YES if you don&rsquo;t want to reuse cells.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Initialization" name="task_Initialization"></a>
+						<h3 class="subsubtitle task-title">Initialization</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithDelegate:andTableView:">&ndash;&nbsp;initWithDelegate:andTableView:</a></code>
+		<span class="tooltip"><p>Initializer for DTTableViewManager. Can be used when you are using it as a separate object.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/managerWithDelegate:andTableView:">+&nbsp;managerWithDelegate:andTableView:</a></code>
+		<span class="tooltip"><p>Returns autoreleased DTTableViewManager object. Can be used when you are using it as a separate object.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Search" name="task_Search"></a>
+						<h3 class="subsubtitle task-title">Search</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tableItemAtIndexPath:">&ndash;&nbsp;tableItemAtIndexPath:</a></code>
+		<span class="tooltip"><p>If item exists at <code>indexPath</code>, it&rsquo;s model will be returned. If section or row does not exist, method will return <code>nil</code>.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/indexPathOfTableItem:">&ndash;&nbsp;indexPathOfTableItem:</a></code>
+		<span class="tooltip"><p>Searches for tableItem and returns it&rsquo;s indexPath. If there are many equal tableItems, indexPath of the first one will be returned</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/indexPathArrayForTableItems:">&ndash;&nbsp;indexPathArrayForTableItems:</a></code>
+		<span class="tooltip"><p>Searches for tableItems and returns <code>NSArray</code> of their indexPaths.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tableItemsArrayForIndexPaths:">&ndash;&nbsp;tableItemsArrayForIndexPaths:</a></code>
+		<span class="tooltip"><p>Returns array of table items at indexPaths.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tableItemsInSection:">&ndash;&nbsp;tableItemsInSection:</a></code>
+		<span class="tooltip"><p>Returns array with table items in section</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/numberOfSections">&ndash;&nbsp;numberOfSections</a></code>
+		<span class="tooltip"><p>Returns number of sections, contained in <code>DTTableViewManager</code>.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/numberOfTableItemsInSection:">&ndash;&nbsp;numberOfTableItemsInSection:</a></code>
+		<span class="tooltip"><p>Returns number of table items in a given <code>section</code>.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Section titles" name="task_Section titles"></a>
+						<h3 class="subsubtitle task-title">Section titles</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSectionHeaderTitles:">&ndash;&nbsp;setSectionHeaderTitles:</a></code>
+		<span class="tooltip"><p>Sets sections header titles, using <code>headerTitles</code> array. Titles must be <code>NSString</code> type.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSectionFooterTitles:">&ndash;&nbsp;setSectionFooterTitles:</a></code>
+		<span class="tooltip"><p>Sets sections footer titles, using <code>footerTitles</code> array. Titles must be <code>NSString</code> type.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Add table items" name="task_Add table items"></a>
+						<h3 class="subsubtitle task-title">Add table items</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addTableItem:">&ndash;&nbsp;addTableItem:</a></code>
+		<span class="tooltip"><p>Add tableItem to section 0. Table will be automatically updated with UITableViewRowAnimationNone.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addTableItems:">&ndash;&nbsp;addTableItems:</a></code>
+		<span class="tooltip"><p>Add table items to section 0. Table will be automatically updated using UITableViewRowAnimationNone.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addTableItem:toSection:">&ndash;&nbsp;addTableItem:toSection:</a></code>
+		<span class="tooltip"><p>Add table items to section <code>section</code>. Table will be automatically updated using UITableViewRowAnimationNone.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addTableItems:toSection:">&ndash;&nbsp;addTableItems:toSection:</a></code>
+		<span class="tooltip"><p>Add table items to section <code>section</code>. Table will be automatically updated using UITableViewRowAnimationNone.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addTableItem:withRowAnimation:">&ndash;&nbsp;addTableItem:withRowAnimation:</a></code>
+		<span class="tooltip"><p>Add table item to section 0. Table will be automatically updated using <code>animation</code> style.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addTableItems:withRowAnimation:">&ndash;&nbsp;addTableItems:withRowAnimation:</a></code>
+		<span class="tooltip"><p>Add table items to section 0. Table will be automatically updated using <code>animation</code> style.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addNonRepeatingItems:toSection:withRowAnimation:">&ndash;&nbsp;addNonRepeatingItems:toSection:withRowAnimation:</a></code>
+		<span class="tooltip"><p>Checking, if item already exists in table, if not &ndash; adding it. Table will be automatically updated using <code>animation</code> style.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addTableItem:toSection:withRowAnimation:">&ndash;&nbsp;addTableItem:toSection:withRowAnimation:</a></code>
+		<span class="tooltip"><p>Add table item to section <code>section</code>. Table will be automatically updated using <code>animation</code> style.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addTableItems:toSection:withRowAnimation:">&ndash;&nbsp;addTableItems:toSection:withRowAnimation:</a></code>
+		<span class="tooltip"><p>Add table items to section <code>section</code>. Table will be automatically updated using <code>animation</code> style.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Insert table items" name="task_Insert table items"></a>
+						<h3 class="subsubtitle task-title">Insert table items</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertTableItem:toIndexPath:">&ndash;&nbsp;insertTableItem:toIndexPath:</a></code>
+		<span class="tooltip"><p>Insert table item to indexPath <code>indexPath</code>. Table will be automatically updated using <code>UITableViewRowAnimationNone</code> style.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertTableItem:toIndexPath:withRowAnimation:">&ndash;&nbsp;insertTableItem:toIndexPath:withRowAnimation:</a></code>
+		<span class="tooltip"><p>Insert table item to indexPath <code>indexPath</code>. Table will be automatically updated using <code>animation</code> style.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Replace table items" name="task_Replace table items"></a>
+						<h3 class="subsubtitle task-title">Replace table items</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/replaceTableItem:withTableItem:">&ndash;&nbsp;replaceTableItem:withTableItem:</a></code>
+		<span class="tooltip"><p>Replace tableItemToReplace with replacingTableItem. Table is immediately updated with <code>UITableViewRowAnimationNone</code> animation. If tableItemToReplace is not found, or replacingTableItem is <code>nil</code>, this method does nothing.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/replaceTableItem:withTableItem:andRowAnimation:">&ndash;&nbsp;replaceTableItem:withTableItem:andRowAnimation:</a></code>
+		<span class="tooltip"><p>Replace tableItemToReplace with replacingTableItem. Table is immediately updated with <code>animation</code> animation. If tableItemToReplace is not found, or replacingTableItem is <code>nil</code>, this method does nothing.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Removing table items" name="task_Removing table items"></a>
+						<h3 class="subsubtitle task-title">Removing table items</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeTableItem:">&ndash;&nbsp;removeTableItem:</a></code>
+		<span class="tooltip"><p>Removing tableItem. Table is immediately updated with <code>UITableViewRowAnimationNone</code> animation. If tableItem is not found,  this method does nothing.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeTableItem:withRowAnimation:">&ndash;&nbsp;removeTableItem:withRowAnimation:</a></code>
+		<span class="tooltip"><p>Removing tableItem. Table is immediately updated with <code>animation</code> animation. If tableItem is not found,  this method does nothing.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeTableItems:">&ndash;&nbsp;removeTableItems:</a></code>
+		<span class="tooltip"><p>Removing tableItems. All deletions are made inside beginUpdates and endUpdates <a href="#//api/name/tableView">tableView</a> block. After all deletions are made, <code>UITableViewRowAnimationNone</code> animation is applied. If some tableItem is not found, it is skipped.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeTableItems:withRowAnimation:">&ndash;&nbsp;removeTableItems:withRowAnimation:</a></code>
+		<span class="tooltip"><p>Removing tableItems. All deletions are made inside beginUpdates and endUpdates <a href="#//api/name/tableView">tableView</a> block. After all deletions are made, <code>animation</code> animation is applied. If some tableItem is not found, it is skipped.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeAllTableItems">&ndash;&nbsp;removeAllTableItems</a></code>
+		<span class="tooltip"><p>Removes all tableItems. Table view data is reloaded using reloadData method.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Managing sections" name="task_Managing sections"></a>
+						<h3 class="subsubtitle task-title">Managing sections</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/moveSection:toSection:">&ndash;&nbsp;moveSection:toSection:</a></code>
+		<span class="tooltip"><p>Moves a section to a new location in the table view.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteSections:">&ndash;&nbsp;deleteSections:</a></code>
+		<span class="tooltip"><p>Deletes one or more sections in the receiver, with <code>UITableViewRowAnimationNone</code> animation.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteSections:withRowAnimation:">&ndash;&nbsp;deleteSections:withRowAnimation:</a></code>
+		<span class="tooltip"><p>Deletes one or more sections in the receiver, with <code>animation</code> animation.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/reloadSections:withRowAnimation:">&ndash;&nbsp;reloadSections:withRowAnimation:</a></code>
+		<span class="tooltip"><p>Reloads one or more sections in the receiver, with <code>animation</code> animation.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Mapping" name="task_Mapping"></a>
+						<h3 class="subsubtitle task-title">Mapping</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setCellMappingforClass:modelClass:">&ndash;&nbsp;setCellMappingforClass:modelClass:</a></code>
+		<span class="tooltip"><p>This method is used to set mapping from model class to custom cell class.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setCellMappingForNib:cellClass:modelClass:">&ndash;&nbsp;setCellMappingForNib:cellClass:modelClass:</a></code>
+		<span class="tooltip"><p>This method is used to set mapping from model to custom cell created from XIB with <code>nibName</code> name. Cell data is then populated by <code>cellClass</code> class.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setObjectMappingDictionary:">&ndash;&nbsp;setObjectMappingDictionary:</a></code>
+		<span class="tooltip"><p>This method is used to set mapping from model class to custom cell class.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/doNotReuseCells" title="doNotReuseCells"></a>
+	<h3 class="subsubtitle method-title">doNotReuseCells</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set this property to YES if you don&rsquo;t want to reuse cells.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL doNotReuseCells</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Set this property to YES if you don&rsquo;t want to reuse cells.</p><div class="warning"><p><strong>Warning:</strong> By default, <code>reuseIdentifier</code> for cells is set to <code>NSStringFromClass(&lt;model class&gt;)</code></p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tableView" title="tableView"></a>
+	<h3 class="subsubtitle method-title">tableView</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Table view that will present your data models.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) IBOutlet UITableView *tableView</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Table view that will present your data models.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/managerWithDelegate:andTableView:" title="managerWithDelegate:andTableView:"></a>
+	<h3 class="subsubtitle method-title">managerWithDelegate:andTableView:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns autoreleased DTTableViewManager object. Can be used when you are using it as a separate object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)managerWithDelegate:(id&lt;UITableViewDelegate&gt;)<em>delegate</em> andTableView:(UITableView *)<em>tableView</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>delegate</em></dt>
+			<dd><p>Your controller, that wishes to get delegate and datasource calls from <code>DTTableViewmanager</code>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableView</em></dt>
+			<dd><p><a href="#//api/name/tableView">tableView</a> on your controller you want to manager.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>autoreleased DTTableViewManager object</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns autoreleased DTTableViewManager object. Can be used when you are using it as a separate object.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addNonRepeatingItems:toSection:withRowAnimation:" title="addNonRepeatingItems:toSection:withRowAnimation:"></a>
+	<h3 class="subsubtitle method-title">addNonRepeatingItems:toSection:withRowAnimation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Checking, if item already exists in table, if not &ndash; adding it. Table will be automatically updated using <code>animation</code> style.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addNonRepeatingItems:(NSArray *)<em>tableItems</em> toSection:(NSInteger)<em>section</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItems</em></dt>
+			<dd><p>Models to add</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>section</em></dt>
+			<dd><p>Section, where items will be added</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation that will be applied when items are added.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Checking, if item already exists in table, if not &ndash; adding it. Table will be automatically updated using <code>animation</code> style.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addTableItem:" title="addTableItem:"></a>
+	<h3 class="subsubtitle method-title">addTableItem:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add tableItem to section 0. Table will be automatically updated with UITableViewRowAnimationNone.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addTableItem:(NSObject *)<em>tableItem</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItem</em></dt>
+			<dd><p>Model you want to add to the table</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Add tableItem to section 0. Table will be automatically updated with UITableViewRowAnimationNone.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addTableItem:toSection:" title="addTableItem:toSection:"></a>
+	<h3 class="subsubtitle method-title">addTableItem:toSection:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add table items to section <code>section</code>. Table will be automatically updated using UITableViewRowAnimationNone.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addTableItem:(NSObject *)<em>tableItem</em> toSection:(NSInteger)<em>section</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItem</em></dt>
+			<dd><p>Model to add.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>section</em></dt>
+			<dd><p>Section, where item will be added</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Add table items to section <code>section</code>. Table will be automatically updated using UITableViewRowAnimationNone.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addTableItem:toSection:withRowAnimation:" title="addTableItem:toSection:withRowAnimation:"></a>
+	<h3 class="subsubtitle method-title">addTableItem:toSection:withRowAnimation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add table item to section <code>section</code>. Table will be automatically updated using <code>animation</code> style.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addTableItem:(NSObject *)<em>tableItem</em> toSection:(NSInteger)<em>section</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItem</em></dt>
+			<dd><p>model to add.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>section</em></dt>
+			<dd><p>Section, where item will be added</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation that will be applied when item is added.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Add table item to section <code>section</code>. Table will be automatically updated using <code>animation</code> style.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addTableItem:withRowAnimation:" title="addTableItem:withRowAnimation:"></a>
+	<h3 class="subsubtitle method-title">addTableItem:withRowAnimation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add table item to section 0. Table will be automatically updated using <code>animation</code> style.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addTableItem:(NSObject *)<em>tableItem</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItem</em></dt>
+			<dd><p>Model to add</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation that will be applied when item is added.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Add table item to section 0. Table will be automatically updated using <code>animation</code> style.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addTableItems:" title="addTableItems:"></a>
+	<h3 class="subsubtitle method-title">addTableItems:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add table items to section 0. Table will be automatically updated using UITableViewRowAnimationNone.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addTableItems:(NSArray *)<em>tableItems</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItems</em></dt>
+			<dd><p>models to add.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Add table items to section 0. Table will be automatically updated using UITableViewRowAnimationNone.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addTableItems:toSection:" title="addTableItems:toSection:"></a>
+	<h3 class="subsubtitle method-title">addTableItems:toSection:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add table items to section <code>section</code>. Table will be automatically updated using UITableViewRowAnimationNone.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addTableItems:(NSArray *)<em>tableItems</em> toSection:(NSInteger)<em>section</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItems</em></dt>
+			<dd><p>Models to add.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>section</em></dt>
+			<dd><p>Section, where items will be added</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Add table items to section <code>section</code>. Table will be automatically updated using UITableViewRowAnimationNone.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addTableItems:toSection:withRowAnimation:" title="addTableItems:toSection:withRowAnimation:"></a>
+	<h3 class="subsubtitle method-title">addTableItems:toSection:withRowAnimation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add table items to section <code>section</code>. Table will be automatically updated using <code>animation</code> style.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addTableItems:(NSArray *)<em>tableItems</em> toSection:(NSInteger)<em>section</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItems</em></dt>
+			<dd><p>models to add.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>section</em></dt>
+			<dd><p>Section, where item will be added</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation that will be applied when items are added.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Add table items to section <code>section</code>. Table will be automatically updated using <code>animation</code> style.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addTableItems:withRowAnimation:" title="addTableItems:withRowAnimation:"></a>
+	<h3 class="subsubtitle method-title">addTableItems:withRowAnimation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add table items to section 0. Table will be automatically updated using <code>animation</code> style.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addTableItems:(NSArray *)<em>tableItems</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItems</em></dt>
+			<dd><p>Models to add.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation that will be applied when items are added.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Add table items to section 0. Table will be automatically updated using <code>animation</code> style.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteSections:" title="deleteSections:"></a>
+	<h3 class="subsubtitle method-title">deleteSections:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes one or more sections in the receiver, with <code>UITableViewRowAnimationNone</code> animation.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)deleteSections:(NSIndexSet *)<em>indexSet</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexSet</em></dt>
+			<dd><p>An index set that specifies the sections to delete from the receiving table view. If a section exists after the specified index location, it is moved up one index location.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Deletes one or more sections in the receiver, with <code>UITableViewRowAnimationNone</code> animation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteSections:withRowAnimation:" title="deleteSections:withRowAnimation:"></a>
+	<h3 class="subsubtitle method-title">deleteSections:withRowAnimation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes one or more sections in the receiver, with <code>animation</code> animation.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)deleteSections:(NSIndexSet *)<em>indexSet</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexSet</em></dt>
+			<dd><p>An index set that specifies the sections to delete from the receiving table view. If a section exists after the specified index location, it is moved up one index location.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Row animation style to be used while deleting sections.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Deletes one or more sections in the receiver, with <code>animation</code> animation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/indexPathArrayForTableItems:" title="indexPathArrayForTableItems:"></a>
+	<h3 class="subsubtitle method-title">indexPathArrayForTableItems:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Searches for tableItems and returns <code>NSArray</code> of their indexPaths.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)indexPathArrayForTableItems:(NSArray *)<em>tableItems</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItems</em></dt>
+			<dd><p>Array of tableItems, that need to be found.</p>
+
+<p>@discussion If tableItem not found, <code>NSNull</code> object is added to indexPaths array. That means you shouldn&rsquo;t call this method if you are not sure, that all tableItems exist. This method uses <a href="#//api/name/indexPathOfTableItem:"><code>indexPathOfTableItem:</code></a> internally.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Array of tableItem&rsquo;s indexes. If at least one tableItem was not found &ndash; <code>nil</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Searches for tableItems and returns <code>NSArray</code> of their indexPaths.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/indexPathOfTableItem:" title="indexPathOfTableItem:"></a>
+	<h3 class="subsubtitle method-title">indexPathOfTableItem:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Searches for tableItem and returns it&rsquo;s indexPath. If there are many equal tableItems, indexPath of the first one will be returned</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSIndexPath *)indexPathOfTableItem:(NSObject *)<em>tableItem</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItem</em></dt>
+			<dd><p>Model of the item you wish to find.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>indexPath of <code>tableItem</code>.If there are many equal tableItems, indexPath of the first one will be returned</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Searches for tableItem and returns it&rsquo;s indexPath. If there are many equal tableItems, indexPath of the first one will be returned</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithDelegate:andTableView:" title="initWithDelegate:andTableView:"></a>
+	<h3 class="subsubtitle method-title">initWithDelegate:andTableView:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializer for DTTableViewManager. Can be used when you are using it as a separate object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithDelegate:(id&lt;UITableViewDelegate&gt;)<em>delegate</em> andTableView:(UITableView *)<em>tableView</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>delegate</em></dt>
+			<dd><p>Your controller, that wishes to get delegate and datasource calls from <code>DTTableViewManager</code>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableView</em></dt>
+			<dd><p><a href="#//api/name/tableView">tableView</a> on your controller you want to manager.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>DTTableViewManager object</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Initializer for DTTableViewManager. Can be used when you are using it as a separate object.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertTableItem:toIndexPath:" title="insertTableItem:toIndexPath:"></a>
+	<h3 class="subsubtitle method-title">insertTableItem:toIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Insert table item to indexPath <code>indexPath</code>. Table will be automatically updated using <code>UITableViewRowAnimationNone</code> style.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)insertTableItem:(NSObject *)<em>tableItem</em> toIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItem</em></dt>
+			<dd><p>model to insert.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>Index, where item should be inserted.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Insert table item to indexPath <code>indexPath</code>. Table will be automatically updated using <code>UITableViewRowAnimationNone</code> style.</p><div class="warning"><p><strong>Warning:</strong> Inserting item at index, that is not occupied, will throw an exception.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertTableItem:toIndexPath:withRowAnimation:" title="insertTableItem:toIndexPath:withRowAnimation:"></a>
+	<h3 class="subsubtitle method-title">insertTableItem:toIndexPath:withRowAnimation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Insert table item to indexPath <code>indexPath</code>. Table will be automatically updated using <code>animation</code> style.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)insertTableItem:(NSObject *)<em>tableItem</em> toIndexPath:(NSIndexPath *)<em>indexPath</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItem</em></dt>
+			<dd><p>model to insert.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>Index, where item should be inserted.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation that will be applied when items are inserted.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Insert table item to indexPath <code>indexPath</code>. Table will be automatically updated using <code>animation</code> style.</p><div class="warning"><p><strong>Warning:</strong> Inserting item at index, that is not occupied, will throw an exception.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/moveSection:toSection:" title="moveSection:toSection:"></a>
+	<h3 class="subsubtitle method-title">moveSection:toSection:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Moves a section to a new location in the table view.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)moveSection:(int)<em>indexFrom</em> toSection:(int)<em>indexTo</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexFrom</em></dt>
+			<dd><p>The index of the section to move.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexTo</em></dt>
+			<dd><p>The index in the table view that is the destination of the move for the section. The existing section at that location slides up or down to an adjoining index position to make room for it.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Moves a section to a new location in the table view.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/numberOfSections" title="numberOfSections"></a>
+	<h3 class="subsubtitle method-title">numberOfSections</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns number of sections, contained in <code>DTTableViewManager</code>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (int)numberOfSections</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>number of sections in <code>DTTableViewManager</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns number of sections, contained in <code>DTTableViewManager</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/numberOfTableItemsInSection:" title="numberOfTableItemsInSection:"></a>
+	<h3 class="subsubtitle method-title">numberOfTableItemsInSection:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns number of table items in a given <code>section</code>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (int)numberOfTableItemsInSection:(NSInteger)<em>section</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>section</em></dt>
+			<dd><p>section, which items will be counted.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>number of table items in a given <code>section</code>. 0, if section does not exist</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns number of table items in a given <code>section</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/reloadSections:withRowAnimation:" title="reloadSections:withRowAnimation:"></a>
+	<h3 class="subsubtitle method-title">reloadSections:withRowAnimation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Reloads one or more sections in the receiver, with <code>animation</code> animation.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)reloadSections:(NSIndexSet *)<em>indexSet</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexSet</em></dt>
+			<dd><p>An index set that specifies the sections to reload from the receiving table view.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Row animation style to be used when reloading sections.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Reloads one or more sections in the receiver, with <code>animation</code> animation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeAllTableItems" title="removeAllTableItems"></a>
+	<h3 class="subsubtitle method-title">removeAllTableItems</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes all tableItems. Table view data is reloaded using reloadData method.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeAllTableItems</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removes all tableItems. Table view data is reloaded using reloadData method.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeTableItem:" title="removeTableItem:"></a>
+	<h3 class="subsubtitle method-title">removeTableItem:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removing tableItem. Table is immediately updated with <code>UITableViewRowAnimationNone</code> animation. If tableItem is not found,  this method does nothing.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeTableItem:(NSObject *)<em>tableItem</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItem</em></dt>
+			<dd><p>Model object you want to remove.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removing tableItem. Table is immediately updated with <code>UITableViewRowAnimationNone</code> animation. If tableItem is not found,  this method does nothing.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeTableItem:withRowAnimation:" title="removeTableItem:withRowAnimation:"></a>
+	<h3 class="subsubtitle method-title">removeTableItem:withRowAnimation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removing tableItem. Table is immediately updated with <code>animation</code> animation. If tableItem is not found,  this method does nothing.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeTableItem:(NSObject *)<em>tableItem</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItem</em></dt>
+			<dd><p>Model object you want to remove.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Row animation style to be used while replacing item.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removing tableItem. Table is immediately updated with <code>animation</code> animation. If tableItem is not found,  this method does nothing.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeTableItems:" title="removeTableItems:"></a>
+	<h3 class="subsubtitle method-title">removeTableItems:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removing tableItems. All deletions are made inside beginUpdates and endUpdates <a href="#//api/name/tableView">tableView</a> block. After all deletions are made, <code>UITableViewRowAnimationNone</code> animation is applied. If some tableItem is not found, it is skipped.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeTableItems:(NSArray *)<em>tableItems</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItems</em></dt>
+			<dd><p>Models you want to remove.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removing tableItems. All deletions are made inside beginUpdates and endUpdates <a href="#//api/name/tableView">tableView</a> block. After all deletions are made, <code>UITableViewRowAnimationNone</code> animation is applied. If some tableItem is not found, it is skipped.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeTableItems:withRowAnimation:" title="removeTableItems:withRowAnimation:"></a>
+	<h3 class="subsubtitle method-title">removeTableItems:withRowAnimation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removing tableItems. All deletions are made inside beginUpdates and endUpdates <a href="#//api/name/tableView">tableView</a> block. After all deletions are made, <code>animation</code> animation is applied. If some tableItem is not found, it is skipped.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeTableItems:(NSArray *)<em>tableItems</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItems</em></dt>
+			<dd><p>Models you want to remove.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Row animation style to be used while replacing item.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removing tableItems. All deletions are made inside beginUpdates and endUpdates <a href="#//api/name/tableView">tableView</a> block. After all deletions are made, <code>animation</code> animation is applied. If some tableItem is not found, it is skipped.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/replaceTableItem:withTableItem:" title="replaceTableItem:withTableItem:"></a>
+	<h3 class="subsubtitle method-title">replaceTableItem:withTableItem:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Replace tableItemToReplace with replacingTableItem. Table is immediately updated with <code>UITableViewRowAnimationNone</code> animation. If tableItemToReplace is not found, or replacingTableItem is <code>nil</code>, this method does nothing.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)replaceTableItem:(NSObject *)<em>tableItemToReplace</em> withTableItem:(NSObject *)<em>replacingTableItem</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItemToReplace</em></dt>
+			<dd><p>Model object you want to replace.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>replacingTableItem</em></dt>
+			<dd><p>Model object you are replacing it with.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Replace tableItemToReplace with replacingTableItem. Table is immediately updated with <code>UITableViewRowAnimationNone</code> animation. If tableItemToReplace is not found, or replacingTableItem is <code>nil</code>, this method does nothing.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/replaceTableItem:withTableItem:andRowAnimation:" title="replaceTableItem:withTableItem:andRowAnimation:"></a>
+	<h3 class="subsubtitle method-title">replaceTableItem:withTableItem:andRowAnimation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Replace tableItemToReplace with replacingTableItem. Table is immediately updated with <code>animation</code> animation. If tableItemToReplace is not found, or replacingTableItem is <code>nil</code>, this method does nothing.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)replaceTableItem:(NSObject *)<em>tableItemToReplace</em> withTableItem:(NSObject *)<em>replacingTableItem</em> andRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableItemToReplace</em></dt>
+			<dd><p>Model object you want to replace.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>replacingTableItem</em></dt>
+			<dd><p>Model object you are replacing it with.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Row animation style to be used while replacing item.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Replace tableItemToReplace with replacingTableItem. Table is immediately updated with <code>animation</code> animation. If tableItemToReplace is not found, or replacingTableItem is <code>nil</code>, this method does nothing.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setCellMappingForNib:cellClass:modelClass:" title="setCellMappingForNib:cellClass:modelClass:"></a>
+	<h3 class="subsubtitle method-title">setCellMappingForNib:cellClass:modelClass:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method is used to set mapping from model to custom cell created from XIB with <code>nibName</code> name. Cell data is then populated by <code>cellClass</code> class.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setCellMappingForNib:(NSString *)<em>nibName</em> cellClass:(Class)<em>cellClass</em> modelClass:(Class)<em>modelClass</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>nibName</em></dt>
+			<dd><p>Name of custom XIB that is used to create a cell.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cellClass</em></dt>
+			<dd><p>Class of the cell you want to be created for model with modelClass.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>modelClass</em></dt>
+			<dd><p>Class of the model you want to be mapped to cellClass.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This method is used to set mapping from model to custom cell created from XIB with <code>nibName</code> name. Cell data is then populated by <code>cellClass</code> class.</p><div class="warning"><p><strong>Warning:</strong> This method needs to be called after <a href="#//api/name/tableView">tableView</a> has been created, in <code>viewDidLoad</code>, for example. This method uses UITableView <code>registerNib:forCellReuseIdentifier:</code> underneath.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setCellMappingforClass:modelClass:" title="setCellMappingforClass:modelClass:"></a>
+	<h3 class="subsubtitle method-title">setCellMappingforClass:modelClass:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method is used to set mapping from model class to custom cell class.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setCellMappingforClass:(Class)<em>cellClass</em> modelClass:(Class)<em>modelClass</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cellClass</em></dt>
+			<dd><p>Class of the cell you want to be created for model with modelClass.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>modelClass</em></dt>
+			<dd><p>Class of the model you want to be mapped to cellClass.</p>
+
+<p>@discussion This is the designated mapping method. It can be called anywhere, but probably the best place to call &ndash; is in your controller -init method. Inner implementation of this method trampolines mapping to <a href="../Classes/DTCellFactory.html">DTCellFactory</a>. You can also call this method of <a href="../Classes/DTCellFactory.html">DTCellFactory</a> as well.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This method is used to set mapping from model class to custom cell class.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setObjectMappingDictionary:" title="setObjectMappingDictionary:"></a>
+	<h3 class="subsubtitle method-title">setObjectMappingDictionary:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method is used to set mapping from model class to custom cell class.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setObjectMappingDictionary:(NSDictionary *)<em>mapping</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>mapping</em></dt>
+			<dd><p>Dictionary of mappings. Must contain NSStringFromClass(<model class>) as keys and NSStringFromClass(<cell class>) as values.</p>
+
+<p>@discussion This method can be called multiple times. All mappings are simply added, not replaced.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This method is used to set mapping from model class to custom cell class.</p><div class="warning"><p><strong>Warning:</strong> Using this method is not recommended unless you know what you are doing. It can be used to set multiple mappings with one call, however mistakes in calling this method can be devastating. It is better and cleaner way to set mappings one by one, in controllers that represent models you are mapping.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSectionFooterTitles:" title="setSectionFooterTitles:"></a>
+	<h3 class="subsubtitle method-title">setSectionFooterTitles:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets sections footer titles, using <code>footerTitles</code> array. Titles must be <code>NSString</code> type.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setSectionFooterTitles:(NSArray *)<em>footerTitles</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>footerTitles</em></dt>
+			<dd><p>footer titles for all sections of the table.</p>
+
+<p>@discussion These method is identical to implementing <code>tableView:titleForFooterInSection:</code> datasource method. If you want to have custom section footer view, use usual <code>UITableView</code> delegate methods.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sets sections footer titles, using <code>footerTitles</code> array. Titles must be <code>NSString</code> type.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSectionHeaderTitles:" title="setSectionHeaderTitles:"></a>
+	<h3 class="subsubtitle method-title">setSectionHeaderTitles:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets sections header titles, using <code>headerTitles</code> array. Titles must be <code>NSString</code> type.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setSectionHeaderTitles:(NSArray *)<em>headerTitles</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>headerTitles</em></dt>
+			<dd><p>header titles for all sections of the table.</p>
+
+<p>@discussion These method is identical to implementing <code>tableView:titleForHeaderInSection:</code> datasource method. If you want to have custom section header view, use usual <code>UITableView</code> delegate methods.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sets sections header titles, using <code>headerTitles</code> array. Titles must be <code>NSString</code> type.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tableItemAtIndexPath:" title="tableItemAtIndexPath:"></a>
+	<h3 class="subsubtitle method-title">tableItemAtIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>If item exists at <code>indexPath</code>, it&rsquo;s model will be returned. If section or row does not exist, method will return <code>nil</code>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)tableItemAtIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>Index of the item you wish to retrieve.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>model at indexPath. If section or row does not exist &ndash; <code>nil</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>If item exists at <code>indexPath</code>, it&rsquo;s model will be returned. If section or row does not exist, method will return <code>nil</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tableItemsArrayForIndexPaths:" title="tableItemsArrayForIndexPaths:"></a>
+	<h3 class="subsubtitle method-title">tableItemsArrayForIndexPaths:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns array of table items at indexPaths.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)tableItemsArrayForIndexPaths:(NSArray *)<em>indexPaths</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPaths</em></dt>
+			<dd><p>indexPaths of array you want to find.</p>
+
+<p>@discussion if <code>indexPath</code> is not found, <code>NSNull</code> object is added instead of the table item. This method uses <a href="#//api/name/tableItemAtIndexPath:"><code>tableItemAtIndexPath:</code></a> internally.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>array of table items at indexPaths</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns array of table items at indexPaths.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tableItemsInSection:" title="tableItemsInSection:"></a>
+	<h3 class="subsubtitle method-title">tableItemsInSection:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns array with table items in section</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)tableItemsInSection:(int)<em>section</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>section</em></dt>
+			<dd><p>Number of the section in table.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>array of table items in section. Empty array if section does not exist.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns array with table items in section</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DTTableViewManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 MLSDev. All rights reserved. (Last updated: 2012-12-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.6 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>
