@@ -462,4 +462,8 @@
                   cellClass:(Class)cellClass
                  modelClass:(Class)modelClass;
 
+
+-(Class)cellClassForModel:(NSObject *)model;
+
+
 @end

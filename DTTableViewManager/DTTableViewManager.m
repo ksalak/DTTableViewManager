@@ -120,6 +120,11 @@
 
 #pragma mark - mapping
 
+- (Class)cellClassForModel:(NSObject *)model
+{
+    return [[DTCellFactory sharedInstance] cellClassForModel:model];
+}
+
 -(void)setCellMappingforClass:(Class)cellClass modelClass:(Class)modelClass
 {
     [[DTCellFactory sharedInstance] setCellClassMapping:cellClass
